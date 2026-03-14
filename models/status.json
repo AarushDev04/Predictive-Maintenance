@@ -1,0 +1,9 @@
+{
+  "last_drift_check": "2026-03-13",
+  "drift_detected": false,
+  "n_drifted_columns": 0,
+  "n_total_columns": 16,
+  "share_drifted": 0.0,
+  "retrain_needed": false,
+  "evidently_version": "0.7.21"
+}

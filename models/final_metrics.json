@@ -1,0 +1,42 @@
+{
+  "dataset": {
+    "total_rows": 876000,
+    "n_machines": 100,
+    "n_features": 68,
+    "positive_rate": 3.87,
+    "date_range_start": "2015-01-01",
+    "date_range_end": "2016-01-01"
+  },
+  "cv_results": {
+    "mean_auc": 0.9975,
+    "std_auc": 0.0014,
+    "mean_f1": 0.7627,
+    "n_folds": 5,
+    "optuna_trials": 50,
+    "optuna_best_auc": 0.9979
+  },
+  "holdout_results": {
+    "holdout_days": 90,
+    "auc": 0.9982,
+    "f1": 0.8827,
+    "recall": 0.9002,
+    "precision": 0.8658,
+    "threshold": 0.938,
+    "tp": 6957,
+    "fp": 1078,
+    "fn": 771,
+    "tn": 207294,
+    "median_lead_hours": 46.0
+  },
+  "feature_breakdown": {
+    "rolling_window": 32,
+    "lag": 12,
+    "fft": 4,
+    "error_frequency": 5,
+    "maintenance": 4,
+    "prophet_anomaly": 4,
+    "machine_meta": 2,
+    "sensor_raw": 4
+  },
+  "generated_at": "2026-03-13T20:33:46.567138"
+}

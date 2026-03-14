@@ -1,0 +1,11 @@
+{
+  "production": {
+    "version": "v1.0",
+    "mlflow_run_id": "655faf5bae294c57b8c9c629dc7ac777",
+    "trained_at": "2026-03-13T19:51:05.403672",
+    "mean_auc": 0.9974713728434514,
+    "mean_f1": 0.7627364395551012
+  },
+  "staging": null,
+  "history": []
+}
